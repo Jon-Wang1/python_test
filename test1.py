@@ -13,6 +13,8 @@ line1 = 'Department1 name:' '{0:15}'.format(department1) + 'Manager:'  '{0:20}'.
         '{0:<20.2f}'.format(COURSE_FEES_SEC)  +'THE END'
 line2 = 'Department2 name:' '%-15s' %department2 + 'Manager:'  '%-20s' %depart2_m + 'COURSE FEES:' + \
         '%-20.3f'%COURSE_FEES_Python + 'THE END'
+line3 = 'Department2 name:' '%-15s' %department2 + 'Manager:'  '%-20s' %depart2_m + 'COURSE FEES:' + \
+        '%-20.3f'%COURSE_FEES_Python + 'THE END'
 
 
 length = len(line1)

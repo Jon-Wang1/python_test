@@ -15,6 +15,8 @@ line2 = 'Department2 name:' '%-15s' %department2 + 'Manager:'  '%-20s' %depart2_
         '%-20.3f'%COURSE_FEES_Python + 'THE END'
 line3 = 'Department2 name:' '%-15s' %department2 + 'Manager:'  '%-20s' %depart2_m + 'COURSE FEES:' + \
         '%-20.3f'%COURSE_FEES_Python + 'THE END'
+line3 = 'Department2 name:' '%-15s' %department2 + 'Manager:'  '%-20s' %depart2_m + 'COURSE FEES:' + \
+        '%-20.3f'%COURSE_FEES_Python + 'THE END'
 
 
 length = len(line1)
